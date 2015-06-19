@@ -53,6 +53,12 @@ gem "figaro", ">= 1.0.0"
 #Carrierwave image uploader
 gem 'carrierwave'
 
+#RMagick 
+#gem 'rmagick'
+
+# ImageResize
+#gem "ImageResize", "~> 0.0.5"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
