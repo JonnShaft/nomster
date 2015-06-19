@@ -53,6 +53,9 @@ gem "figaro", ">= 1.0.0"
 #Carrierwave image uploader
 gem 'carrierwave'
 
+#Fog gem
+gem "fog", "~> 1.3.1"
+
 #RMagick 
 #gem 'rmagick'
 
