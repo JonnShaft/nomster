@@ -1,5 +1,3 @@
-<%= will_paginate @places, :class => "apple_pagination" %>
-
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -12,13 +10,13 @@
     <div class="item active">
       <%= image_tag 'slider1.jpg', :class => 'img-responsive' %>
       <div class="carousel-caption">
-        Find the best beer bars in the world
+        Find The Best Beer Bars In The World!
       </div>
     </div>
     <div class="item">
       <%= image_tag 'slider2.jpg', :class => 'img-responsive' %>
       <div class="carousel-caption">
-        Need an ice cold brewski?
+        Need An Ice Cold Brewski?
       </div>
     </div>
   </div>
@@ -56,16 +54,19 @@
 	  </div>
 	</div>
 <% end %>
-</div>
-<% if place.photos.present? %>
-	<div class="booyah-box col-xs-10 col-xs-offset-1">
-			<% if place.photos.last.picture.present? %>
-			<%= image_tag place.photos.order("id ASC").last.picture, :class => 'img-responsive' %>
-			<% end %>
-		</div>  
+<div>
+  <% if place.photos.present? %>
+	   <div class="booyah-box col-xs-10 col-xs-offset-1">
+  			<% if place.photos.last.picture.present? %>
+  			 <%= image_tag place.photos.order("id ASC").last.picture, :class => 'img-responsive' %>
+  			<% end %>
+	   </div>  
 	<% end %>
+</div>
 
 <% end %>
 
 <br style="clear:both;" />
+
+<%= will_paginate @places, :class => "apple_pagination" %>
 
