@@ -56,6 +56,9 @@ gem 'carrierwave'
 #Fog gem
 gem "fog", "~> 1.3.1"
 
+#FactoryGirl
+gem "factory_girl_rails", "~> 4.0"
+
 #RMagick 
 #gem 'rmagick'
 
