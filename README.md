@@ -19,4 +19,5 @@ Nomster is a Yelp clone app that allows users to create a profile, post and comm
 
 * Profile page shows which restaurants the user has created, which restaurants the user has commented on, and other stats.
 
-![Here's a glimpse of one of my favorite bars that a user posted to Nomster](https://github.com/JonnShaft/Nomster/master/nomster-ahmad-jamal.herokuapp.com.jpg)
+#### Here's a peek at one of my favorite bars added by a user.
+![alt tag](https://raw.github.com/JonnShaft/Nomster/master/nomster-ahmad-jamal.herokuapp.com.jpg)
